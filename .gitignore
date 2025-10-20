@@ -1,0 +1,45 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.swp
+
+# Node / JS
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Vite cache
+**/.vite/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editors/IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS X
+.AppleDouble
+.LSOverride
+
+# Project-specific (redundant with above, kept for clarity)
+query-library-app/node_modules/
+query-library-app/dist/
+query-library-app/.vite/
+query-library-app/coverage/
+query-library-app/.DS_Store
